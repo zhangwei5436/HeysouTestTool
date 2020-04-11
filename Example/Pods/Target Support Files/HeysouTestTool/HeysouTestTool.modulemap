@@ -1,0 +1,6 @@
+framework module HeysouTestTool {
+  umbrella header "HeysouTestTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

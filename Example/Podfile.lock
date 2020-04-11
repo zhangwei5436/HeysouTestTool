@@ -1,0 +1,16 @@
+PODS:
+  - HeysouTestTool (0.1.0)
+
+DEPENDENCIES:
+  - HeysouTestTool (from `../`)
+
+EXTERNAL SOURCES:
+  HeysouTestTool:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HeysouTestTool: 48cc1215668c5a2047b36629c0fbc8b84159e52e
+
+PODFILE CHECKSUM: c03faba285113394dd03b561675bf6a68a20fe6b
+
+COCOAPODS: 1.4.0

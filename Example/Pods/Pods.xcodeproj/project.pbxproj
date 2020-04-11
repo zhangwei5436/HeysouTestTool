@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E6D6A72BF0C84A0C0957FE5EDB477D /* HeysouTestTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DE1DDBA1D8F0B69C25DB3A8C52137E /* HeysouTestTool-dummy.m */; };
+		0CB63BA8F8D36BB360219A11DB8B2E76 /* HeysouTestTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE5D8D00F57615A2D3DD92FF7551BD21 /* HeysouTestTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3572742DCB38BE68D07CE039F1546DFE /* TestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A206848B6F057A72F4C371157D597BB /* TestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE9D02CE71761784CB04EFE584FF409 /* TestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D06EA1B65A298EEDB3131AD8DC7702 /* TestProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62F5FF63C5CC573F45E543A6E006691C /* Pods-HeysouTestTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BA8FB1FC79ED878318A736CBF8F736 /* Pods-HeysouTestTool_Tests-dummy.m */; };
+		7476D6F34D29994F22B458815EA4DC25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		867690689B37A8042C3996F6A79AB3B9 /* Pods-HeysouTestTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E94E8BEA7A5E45B232FC0A27C238447A /* Pods-HeysouTestTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6AD5F4F52ABE4BA45E9E35A4ED737B3 /* Pods-HeysouTestTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 619E9B4F7B461348278C62890D3BF0D1 /* Pods-HeysouTestTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAE776D5C60CB484EBFD86FC41AC53DC /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA7EA6542D09A44B7C2504AD3703D14 /* TestView.m */; };
+		D51B18BBD37BDA148D7D253EC6AB958F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F858C8E61227BC06F67BBFEA3FBF8E6D /* Pods-HeysouTestTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABBFC31FDAAC492D04DEC2960173972 /* Pods-HeysouTestTool_Example-dummy.m */; };
+		F9B4ECD8550D23C0850674E004AF6320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B64F17107944555DF2E097D163AF923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05A9C49131A0D00DB115824D066396B9;
+			remoteInfo = HeysouTestTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0058EC02A9D167C774850B5487D9EF72 /* Pods-HeysouTestTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeysouTestTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		03E61EE14FC2B3C68B434DDB946DF098 /* Pods-HeysouTestTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeysouTestTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		040BC0E1FADF423BE147B773F7A93ED3 /* Pods-HeysouTestTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeysouTestTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0BD506D46DB7EFA9DC5B7A25E7D997D1 /* Pods-HeysouTestTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeysouTestTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		100A79400572F42D40DE389AEC9CEAF5 /* Pods-HeysouTestTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeysouTestTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		197259DEDF6E1E52687DCE656DFD2278 /* Pods-HeysouTestTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeysouTestTool_Tests-resources.sh"; sourceTree = "<group>"; };
+		1AE227708C360A56D2BD4F0D108334BA /* Pods-HeysouTestTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeysouTestTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B29C84CAB36548DD73F6E3A15B0E379 /* Pods-HeysouTestTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeysouTestTool_Tests.modulemap"; sourceTree = "<group>"; };
+		342D558E453CD38415CD54AF3A6A98FF /* Pods-HeysouTestTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeysouTestTool_Example-resources.sh"; sourceTree = "<group>"; };
+		45E1F02E6DC8ED3C60E4D295F3A051E5 /* HeysouTestTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HeysouTestTool.modulemap; sourceTree = "<group>"; };
+		4772F6037AA570728781827088F180B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		47B73FBBDC58439FD82E642E68CE20A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50817E0E92AECE7556317510A9D36291 /* Pods-HeysouTestTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeysouTestTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5ABBFC31FDAAC492D04DEC2960173972 /* Pods-HeysouTestTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeysouTestTool_Example-dummy.m"; sourceTree = "<group>"; };
+		5D4BF922F2EDEE537A35613668B645F7 /* Pods-HeysouTestTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeysouTestTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E4F6C44894539ED97745506D9C580D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619E9B4F7B461348278C62890D3BF0D1 /* Pods-HeysouTestTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeysouTestTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		61DE1DDBA1D8F0B69C25DB3A8C52137E /* HeysouTestTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HeysouTestTool-dummy.m"; sourceTree = "<group>"; };
+		644187E938619DE0440FD1C0BD4042EA /* Pods-HeysouTestTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HeysouTestTool_Example.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7947484CD05E14CC0622F0441B7EC029 /* Pods_HeysouTestTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HeysouTestTool_Tests.framework; path = "Pods-HeysouTestTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A67B811968DB58797AA841901E311FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A206848B6F057A72F4C371157D597BB /* TestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestView.h; path = HeysouTestTool/Classes/TestView.h; sourceTree = "<group>"; };
+		A8AB6AFB43203FBEAB469DFCD4156F90 /* Pods_HeysouTestTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HeysouTestTool_Example.framework; path = "Pods-HeysouTestTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BA8FB1FC79ED878318A736CBF8F736 /* Pods-HeysouTestTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeysouTestTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		B611F7DC3FA561EF5927D79B3379CC8A /* HeysouTestTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeysouTestTool-prefix.pch"; sourceTree = "<group>"; };
+		C3A45C5B2415A3B9FF4A8FCF0C8D71BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E2993EB3B87B0FF22AF87CD48C30D189 /* Pods-HeysouTestTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeysouTestTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E94E8BEA7A5E45B232FC0A27C238447A /* Pods-HeysouTestTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeysouTestTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		ECA7EA6542D09A44B7C2504AD3703D14 /* TestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestView.m; path = HeysouTestTool/Classes/TestView.m; sourceTree = "<group>"; };
+		F3D06EA1B65A298EEDB3131AD8DC7702 /* TestProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestProtocol.h; path = HeysouTestTool/Classes/TestProtocol.h; sourceTree = "<group>"; };
+		F6988EF2BF2D6ABCA23FC5B3C4BDCCDF /* HeysouTestTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HeysouTestTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F84348F4E2F3B7B4B23BEAC164FBBEDC /* HeysouTestTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HeysouTestTool.xcconfig; sourceTree = "<group>"; };
+		FD24F1BA4DDC36B6E06A5B279140378A /* Pods-HeysouTestTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeysouTestTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FD792057AA50A6C25AAF58EA6F378EED /* HeysouTestTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HeysouTestTool.framework; path = HeysouTestTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5D8D00F57615A2D3DD92FF7551BD21 /* HeysouTestTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeysouTestTool-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13E792FACFE0FE3D7D5DB26D480592A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7476D6F34D29994F22B458815EA4DC25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697CA501DA243A71B3BEDE9927E2C333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51B18BBD37BDA148D7D253EC6AB958F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B41D0AD419DCE14B3A570600D45885F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B4ECD8550D23C0850674E004AF6320 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1465D33D1B57AA3B6FBE7DD4EC3F0C8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45E1F02E6DC8ED3C60E4D295F3A051E5 /* HeysouTestTool.modulemap */,
+				F84348F4E2F3B7B4B23BEAC164FBBEDC /* HeysouTestTool.xcconfig */,
+				61DE1DDBA1D8F0B69C25DB3A8C52137E /* HeysouTestTool-dummy.m */,
+				B611F7DC3FA561EF5927D79B3379CC8A /* HeysouTestTool-prefix.pch */,
+				FE5D8D00F57615A2D3DD92FF7551BD21 /* HeysouTestTool-umbrella.h */,
+				7A67B811968DB58797AA841901E311FE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HeysouTestTool";
+			sourceTree = "<group>";
+		};
+		1787E7D50492BAF8642ED1CF59A2CE89 /* HeysouTestTool */ = {
+			isa = PBXGroup;
+			children = (
+				F3D06EA1B65A298EEDB3131AD8DC7702 /* TestProtocol.h */,
+				9A206848B6F057A72F4C371157D597BB /* TestView.h */,
+				ECA7EA6542D09A44B7C2504AD3703D14 /* TestView.m */,
+				499DBF284CAD11C741C5298A1C7F40FE /* Pod */,
+				1465D33D1B57AA3B6FBE7DD4EC3F0C8A /* Support Files */,
+			);
+			name = HeysouTestTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		237D9CA9121ADCB689B5F48560F1D40E /* Pods-HeysouTestTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				47B73FBBDC58439FD82E642E68CE20A4 /* Info.plist */,
+				644187E938619DE0440FD1C0BD4042EA /* Pods-HeysouTestTool_Example.modulemap */,
+				1AE227708C360A56D2BD4F0D108334BA /* Pods-HeysouTestTool_Example-acknowledgements.markdown */,
+				E2993EB3B87B0FF22AF87CD48C30D189 /* Pods-HeysouTestTool_Example-acknowledgements.plist */,
+				5ABBFC31FDAAC492D04DEC2960173972 /* Pods-HeysouTestTool_Example-dummy.m */,
+				040BC0E1FADF423BE147B773F7A93ED3 /* Pods-HeysouTestTool_Example-frameworks.sh */,
+				342D558E453CD38415CD54AF3A6A98FF /* Pods-HeysouTestTool_Example-resources.sh */,
+				E94E8BEA7A5E45B232FC0A27C238447A /* Pods-HeysouTestTool_Example-umbrella.h */,
+				0BD506D46DB7EFA9DC5B7A25E7D997D1 /* Pods-HeysouTestTool_Example.debug.xcconfig */,
+				FD24F1BA4DDC36B6E06A5B279140378A /* Pods-HeysouTestTool_Example.release.xcconfig */,
+			);
+			name = "Pods-HeysouTestTool_Example";
+			path = "Target Support Files/Pods-HeysouTestTool_Example";
+			sourceTree = "<group>";
+		};
+		3A0CFFEAACD22092866797981D9F6029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD792057AA50A6C25AAF58EA6F378EED /* HeysouTestTool.framework */,
+				A8AB6AFB43203FBEAB469DFCD4156F90 /* Pods_HeysouTestTool_Example.framework */,
+				7947484CD05E14CC0622F0441B7EC029 /* Pods_HeysouTestTool_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499DBF284CAD11C741C5298A1C7F40FE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F6988EF2BF2D6ABCA23FC5B3C4BDCCDF /* HeysouTestTool.podspec */,
+				4772F6037AA570728781827088F180B7 /* LICENSE */,
+				C3A45C5B2415A3B9FF4A8FCF0C8D71BC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		524DA537C7CF95B4BF154A4CD7CC0534 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				237D9CA9121ADCB689B5F48560F1D40E /* Pods-HeysouTestTool_Example */,
+				DBF3F269B6187DF04F8238D6B0FE85E0 /* Pods-HeysouTestTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FA2F39A1AAFB72449D217B8D4E60C63F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3A0CFFEAACD22092866797981D9F6029 /* Products */,
+				524DA537C7CF95B4BF154A4CD7CC0534 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DBF3F269B6187DF04F8238D6B0FE85E0 /* Pods-HeysouTestTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5E4F6C44894539ED97745506D9C580D4 /* Info.plist */,
+				2B29C84CAB36548DD73F6E3A15B0E379 /* Pods-HeysouTestTool_Tests.modulemap */,
+				100A79400572F42D40DE389AEC9CEAF5 /* Pods-HeysouTestTool_Tests-acknowledgements.markdown */,
+				50817E0E92AECE7556317510A9D36291 /* Pods-HeysouTestTool_Tests-acknowledgements.plist */,
+				A8BA8FB1FC79ED878318A736CBF8F736 /* Pods-HeysouTestTool_Tests-dummy.m */,
+				0058EC02A9D167C774850B5487D9EF72 /* Pods-HeysouTestTool_Tests-frameworks.sh */,
+				197259DEDF6E1E52687DCE656DFD2278 /* Pods-HeysouTestTool_Tests-resources.sh */,
+				619E9B4F7B461348278C62890D3BF0D1 /* Pods-HeysouTestTool_Tests-umbrella.h */,
+				5D4BF922F2EDEE537A35613668B645F7 /* Pods-HeysouTestTool_Tests.debug.xcconfig */,
+				03E61EE14FC2B3C68B434DDB946DF098 /* Pods-HeysouTestTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-HeysouTestTool_Tests";
+			path = "Target Support Files/Pods-HeysouTestTool_Tests";
+			sourceTree = "<group>";
+		};
+		FA2F39A1AAFB72449D217B8D4E60C63F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1787E7D50492BAF8642ED1CF59A2CE89 /* HeysouTestTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		43801E91FD6A6F222F830B84A5F83735 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB63BA8F8D36BB360219A11DB8B2E76 /* HeysouTestTool-umbrella.h in Headers */,
+				5BE9D02CE71761784CB04EFE584FF409 /* TestProtocol.h in Headers */,
+				3572742DCB38BE68D07CE039F1546DFE /* TestView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF6ACA060A3CC348650323402F32A50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AD5F4F52ABE4BA45E9E35A4ED737B3 /* Pods-HeysouTestTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A0B6785F0821E91D660551FC9836ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867690689B37A8042C3996F6A79AB3B9 /* Pods-HeysouTestTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05A9C49131A0D00DB115824D066396B9 /* HeysouTestTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB1425A0DBF8A1E5C66515A84C8A7D7 /* Build configuration list for PBXNativeTarget "HeysouTestTool" */;
+			buildPhases = (
+				183465D371F2D0C4CF5DEF84EE0F0193 /* Sources */,
+				8B41D0AD419DCE14B3A570600D45885F /* Frameworks */,
+				43801E91FD6A6F222F830B84A5F83735 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeysouTestTool;
+			productName = HeysouTestTool;
+			productReference = FD792057AA50A6C25AAF58EA6F378EED /* HeysouTestTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19F190059726D340FBBE9602B966B883 /* Pods-HeysouTestTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2261D7F15302D73B1365CEF2E27414 /* Build configuration list for PBXNativeTarget "Pods-HeysouTestTool_Example" */;
+			buildPhases = (
+				47B0B199270E4444B59C865470CE0912 /* Sources */,
+				13E792FACFE0FE3D7D5DB26D480592A9 /* Frameworks */,
+				80A0B6785F0821E91D660551FC9836ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				192ECC9F3AA89CA1D89B2322316934B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-HeysouTestTool_Example";
+			productName = "Pods-HeysouTestTool_Example";
+			productReference = A8AB6AFB43203FBEAB469DFCD4156F90 /* Pods_HeysouTestTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE07AB63E0B0F372E644C51BA3C8CF1A /* Pods-HeysouTestTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D208ABE98486BE3D7A4F0FC2BD18B03 /* Build configuration list for PBXNativeTarget "Pods-HeysouTestTool_Tests" */;
+			buildPhases = (
+				527F15E5419EC3093205ED8A5BFA845E /* Sources */,
+				697CA501DA243A71B3BEDE9927E2C333 /* Frameworks */,
+				6EF6ACA060A3CC348650323402F32A50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HeysouTestTool_Tests";
+			productName = "Pods-HeysouTestTool_Tests";
+			productReference = 7947484CD05E14CC0622F0441B7EC029 /* Pods_HeysouTestTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3A0CFFEAACD22092866797981D9F6029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05A9C49131A0D00DB115824D066396B9 /* HeysouTestTool */,
+				19F190059726D340FBBE9602B966B883 /* Pods-HeysouTestTool_Example */,
+				CE07AB63E0B0F372E644C51BA3C8CF1A /* Pods-HeysouTestTool_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183465D371F2D0C4CF5DEF84EE0F0193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E6D6A72BF0C84A0C0957FE5EDB477D /* HeysouTestTool-dummy.m in Sources */,
+				AAE776D5C60CB484EBFD86FC41AC53DC /* TestView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B0B199270E4444B59C865470CE0912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F858C8E61227BC06F67BBFEA3FBF8E6D /* Pods-HeysouTestTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527F15E5419EC3093205ED8A5BFA845E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F5FF63C5CC573F45E543A6E006691C /* Pods-HeysouTestTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		192ECC9F3AA89CA1D89B2322316934B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HeysouTestTool;
+			target = 05A9C49131A0D00DB115824D066396B9 /* HeysouTestTool */;
+			targetProxy = 0B64F17107944555DF2E097D163AF923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		233F8093B8E97D9082831AC859ED4F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D4BF922F2EDEE537A35613668B645F7 /* Pods-HeysouTestTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeysouTestTool_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeysouTestTool_Tests/Pods-HeysouTestTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HeysouTestTool_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		485B831A5B13ABA0100876D0F0717A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84348F4E2F3B7B4B23BEAC164FBBEDC /* HeysouTestTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HeysouTestTool/HeysouTestTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HeysouTestTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HeysouTestTool/HeysouTestTool.modulemap";
+				PRODUCT_NAME = HeysouTestTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		518733877032B69489D9EBE04367A4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD24F1BA4DDC36B6E06A5B279140378A /* Pods-HeysouTestTool_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeysouTestTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeysouTestTool_Example/Pods-HeysouTestTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HeysouTestTool_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		797D89DA54B1CA5B1C8BAFE0726E73FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD506D46DB7EFA9DC5B7A25E7D997D1 /* Pods-HeysouTestTool_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeysouTestTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeysouTestTool_Example/Pods-HeysouTestTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HeysouTestTool_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA71CAC012B852A8C6BB2E7C25C97DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84348F4E2F3B7B4B23BEAC164FBBEDC /* HeysouTestTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HeysouTestTool/HeysouTestTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HeysouTestTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HeysouTestTool/HeysouTestTool.modulemap";
+				PRODUCT_NAME = HeysouTestTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CDE18422901DC75FF171F18B834D6A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E61EE14FC2B3C68B434DDB946DF098 /* Pods-HeysouTestTool_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HeysouTestTool_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HeysouTestTool_Tests/Pods-HeysouTestTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HeysouTestTool_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C2261D7F15302D73B1365CEF2E27414 /* Build configuration list for PBXNativeTarget "Pods-HeysouTestTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797D89DA54B1CA5B1C8BAFE0726E73FF /* Debug */,
+				518733877032B69489D9EBE04367A4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D208ABE98486BE3D7A4F0FC2BD18B03 /* Build configuration list for PBXNativeTarget "Pods-HeysouTestTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233F8093B8E97D9082831AC859ED4F9C /* Debug */,
+				CDE18422901DC75FF171F18B834D6A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CB1425A0DBF8A1E5C66515A84C8A7D7 /* Build configuration list for PBXNativeTarget "HeysouTestTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485B831A5B13ABA0100876D0F0717A59 /* Debug */,
+				BA71CAC012B852A8C6BB2E7C25C97DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

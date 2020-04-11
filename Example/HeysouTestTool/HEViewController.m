@@ -7,6 +7,9 @@
 //
 
 #import "HEViewController.h"
+#import "TestView.h"
+#import "TestProtocol.h"
+
 
 @interface HEViewController ()
 
