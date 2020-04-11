@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HeysouTestTool_Example' do
+  pod 'HeysouTestTool', :path => '../'
+
+  target 'HeysouTestTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
