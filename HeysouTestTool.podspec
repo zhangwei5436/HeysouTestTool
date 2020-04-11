@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: 黑手组件测试项目库，主要对基本控件的抽离
+TODO: 黑手组件测试项目库，主要对基本控件的抽离,组件的划分
                        DESC
 
   s.homepage         = 'https://github.com/zhangwei5436/HeysouTestTool'
